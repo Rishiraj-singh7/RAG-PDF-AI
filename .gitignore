@@ -1,0 +1,20 @@
+# Secrets — never commit real API keys
+.streamlit/secrets.toml
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# ChromaDB local persistence (if ever enabled)
+chroma_db/
+*.sqlite3
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
